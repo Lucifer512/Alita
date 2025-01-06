@@ -41,7 +41,7 @@ const NFTManagement = () => {
   ]);
 
   return (
-    <div className="relative min-h-[95vh] py-20">
+    <div className="relative min-h-[95vh] py-20 px-20">
       <div className="container mx-auto px-4">
         {/* Section Title */}
         <h2 className="text-4xl font-medium text-center">

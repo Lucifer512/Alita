@@ -1,6 +1,6 @@
 const BannerOne = () => {
   return (
-    <div className="relative min-h-[75vh] mt-32" style={{background: "url('/BannerOne-Back.svg')", backgroundSize: "cover", backgroundPosition: "center"}}>
+    <div className="relative min-h-[75vh] w-full mt-32" style={{backgroundImage: "url('/BannerOne-Back.svg')", backgroundSize: "cover", backgroundPosition: "center", backgroundRepeat: "no-repeat"}}>
 
       {/* Content container */}
       <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pt-20 pb-16" >

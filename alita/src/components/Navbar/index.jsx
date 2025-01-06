@@ -68,7 +68,7 @@ const Navbar = () => {
                 <span className="sr-only">GitHub</span>
               </a>
               <button className="flex items-center justify-center gap-2 px-4 py-1.5 w-[129px] h-[30px] bg-gradient-to-b from-pink-500 to-purple-500 rounded-full text-white text-[13px] leading-[26px] font-onest tracking-tighter focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-offset-2">
-                LAUNCH AGENT
+                Join Waitlist
               </button>
             </div>
           </div>

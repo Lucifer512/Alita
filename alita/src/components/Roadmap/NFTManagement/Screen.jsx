@@ -2,7 +2,7 @@
 const Screen = ({ title, description, image, activeDot, bottomText }) => {
   return (
     <div className="relative w-full max-w-full mx-auto py-8 flex flex-col justify-center items-center">
-      <div className="aspect-[8/19] bg-black rounded-[40px] overflow-hidden shadow-xl">
+      <div className="aspect-[10/19] w-[80%] bg-black rounded-[40px] overflow-hidden shadow-xl">
         {/* iOS Status Bar */}
         <div className="flex justify-between items-center px-5 py-3">
           <span className="text-[15px] font-medium text-white">9:41</span>
