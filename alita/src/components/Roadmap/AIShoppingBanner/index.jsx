@@ -58,14 +58,20 @@ const AIShoppingBanner = () => {
           </div>
         </div>
         <div className="mt-20 flex flex-col lg:flex-row justify-center items-center">
-          <h2 className="text-2xl md:text-3xl lg:text-4xl font-light text-[#1D1D1D] max-w-lg">
+            <div className="flex flex-col justify-center items-end w-full lg:w-1/2">
+            <h2 className="text-3xl md:text-4xl lg:text-5xl font-light text-[#1D1D1D] max-w-lg text-left font-onest">
             Your AI Concierge for Growing Business.
           </h2>
+            </div>
+          
+          <div className="flex items-end justify-end w-1/2 px-20">
           <img
             src="/Screen1.svg"
             alt="Alita AI Assistant"
-            className="w-[200px] md:w-[250px] lg:w-[300px]"
+            className="w-1/2 md:w-[250px] lg:w-[300px]"
           />
+          </div>
+          
         </div>
       </div>
     </div>
