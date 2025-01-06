@@ -3,7 +3,7 @@ const BannerThree = () => {
     <div className="relative min-h-[170vh] px-4 overflow-hidden flex flex-col justify-between pb-20">
     <div className="absolute top-0 left-0 w-1/2 h-full" style={{backgroundImage: "url('/BannerThree-Back.svg')", backgroundSize: "cover", backgroundPosition: "center"}}>
     </div>
-      <div className="relative w-full h-full">
+      <div className="relative w-full" style={{height: "80vh"}}>
         {/* Main Heading */}
         <div className="relative w-full top-16 flex justify-center items-center overflow-hidden text-center px-4">
           <h2 className="text-2xl md:text-3xl lg:text-4xl text-black font-light leading-tight font-onest">
@@ -32,7 +32,7 @@ const BannerThree = () => {
           />
         </div>
       </div>
-      <div className="relative w-full max-w-7xl mx-auto px-4 py-20">
+      <div className="relative w-full max-w-7xl mx-auto px-4 py-20 mt-10">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-16">
         {/* Left Section */}
         <div className="relative">
