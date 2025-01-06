@@ -35,7 +35,7 @@ const Navbar = () => {
                 Roadmap
               </Link>
               <Link
-                to="/stake"
+                to="/dashboard"
                 className="text-sm font-medium text-gray-700 transition-colors hover:text-gray-900 font-onest"
               >
                 Stake $ALITA
