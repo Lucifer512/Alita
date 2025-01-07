@@ -5,6 +5,7 @@ import Roadmap from "./pages/Roadmap";
 // import Stake from "./components/Stake";
 import Home from "./pages/Home";
 import Dashboard from "./pages/Dashboard";
+import Staking from "./components/Dashboard/Staking";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/roadmap" element={<Roadmap />} />
         <Route path="/dashboard" element={<Dashboard />} />
+        <Route path="/dashboard/staking" element={<Staking />} />
       </Routes>
     </Router>
   );

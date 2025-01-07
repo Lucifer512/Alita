@@ -110,10 +110,10 @@ export default function DashboardLayout({ children }) {
             >
               Dashboard
             </NavButton>
-            <NavButton onClick={() => handleNavigation("/staking")}>
+            <NavButton onClick={() => handleNavigation("/dashboard/staking")}>
               Staking
             </NavButton>
-            <NavButton onClick={() => handleNavigation("/redeem")}>
+            <NavButton onClick={() => handleNavigation("/dashboard/redeem")}>
               Redeem
             </NavButton>
             <NavButton onClick={() => handleNavigation("/")}>Home</NavButton>
